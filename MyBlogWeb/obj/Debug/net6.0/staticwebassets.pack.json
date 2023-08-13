@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MyBlogWeb.bundle.scp.css"
     },
     {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\JEssentials.js",
+      "PackagePath": "staticwebassets\\JEssentials.js"
+    },
+    {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rolling.gif",
+      "PackagePath": "staticwebassets\\imgassets\\rolling.gif"
     },
     {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckg.mp4",

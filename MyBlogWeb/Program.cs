@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using MyBlogWeb.Data;
+using MyBlogWeb.Services;
 
 namespace MyBlogWeb
 {
@@ -14,6 +15,8 @@ namespace MyBlogWeb
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddScoped<BrowserService>();
+            builder.Services.AddScoped<BrowserService>();
 
             var app = builder.Build();
 

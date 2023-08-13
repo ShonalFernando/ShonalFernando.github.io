@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LIg0IwaHRhLGEThFdVfwvLnG+uXtup4lX0IGsVWviaQ=",
+  "Hash": "1TDpveNsd3Se4sM5LXjdqZ4L4lcQZocZr09TH6nELE8=",
   "Source": "MyBlogWeb",
   "BasePath": "_content/MyBlogWeb",
   "Mode": "Default",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rolling.gif",
+      "SourceId": "MyBlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\",
+      "BasePath": "_content/MyBlogWeb",
+      "RelativePath": "imgassets/rolling.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgassets\\rolling.gif"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\JEssentials.js",
+      "SourceId": "MyBlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\",
+      "BasePath": "_content/MyBlogWeb",
+      "RelativePath": "JEssentials.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JEssentials.js"
     },
     {
       "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckg.mp4",

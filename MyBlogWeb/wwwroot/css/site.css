@@ -237,3 +237,17 @@ a, .btn-link {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+/*=======================================================================================================================================*/
+.contentloader {
+    position: fixed;
+    border: 0;
+    left: 40%;
+    bottom: 35%;
+    cursor: pointer;
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
