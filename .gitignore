@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MyBlogWeb/wwwroot/videoasssets/iobckg.mp4
+/MyBlogWeb/wwwroot/videoasssets/iobckgii.mp4

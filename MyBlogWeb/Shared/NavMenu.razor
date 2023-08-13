@@ -1,0 +1,52 @@
+﻿@*<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">MyBlogWeb</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>*@
+<br/>
+<br />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br />
+<br />
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Explore/en" Match="NavLinkMatch.All">
+                <img width="24" height="24" src="https://img.icons8.com/fluency/48/compass.png" alt="compass" />&nbsp; Explore
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Explore/en/AboutMe">
+                <img width="24" height="24" src="https://img.icons8.com/fluency/48/info-popup.png" alt="info-popup" />&nbsp; About Me
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Explore/en/Contact">
+                <img width="24" height="24" src="https://img.icons8.com/fluency/48/secured-letter.png" alt="secured-letter" />&nbsp; Contact Me
+            </NavLink>
+        </div>        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/Explore/en/Services">
+                <img width="24" height="24" src="https://img.icons8.com/fluency/48/task-planning.png" alt="task-planning" />&nbsp; Services
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

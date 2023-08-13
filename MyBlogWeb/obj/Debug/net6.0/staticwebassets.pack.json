@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyBlogWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyBlogWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckg.mp4",
+      "PackagePath": "staticwebassets\\videoasssets\\iobckg.mp4"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckgii.mp4",
+      "PackagePath": "staticwebassets\\videoasssets\\iobckgii.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyBlogWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyBlogWeb.props",
+      "PackagePath": "build\\MyBlogWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyBlogWeb.props",
+      "PackagePath": "buildMultiTargeting\\MyBlogWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyBlogWeb.props",
+      "PackagePath": "buildTransitive\\MyBlogWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
