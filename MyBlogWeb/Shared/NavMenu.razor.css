@@ -1,4 +1,4 @@
-.navbar-toggler {
+/*.navbar-toggler {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -56,7 +56,48 @@
     }
 
     .collapse {
-        /* Never collapse the sidebar for wide screens */
+         Never collapse the sidebar for wide screens 
         display: block;
     }
+}*/
+
+
+/* ==================================================== Top Nav ===================================================*/
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background: #000000;
+    color: white;
+    overflow: hidden;
+    z-index: 10;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 35px;
+    font-family: Roboto, Arial, sans-serif;
 }
+    .topnav:hover {
+        color: #0a0a0a;
+        background: rgb(62,62,62);
+        background: linear-gradient(360deg, rgba(62,62,62,1) 0%, rgba(54,54,54,1) 100%);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 7px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            color: #949494;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            color: #BF40BF;
+            text-transform: uppercase;
+        }

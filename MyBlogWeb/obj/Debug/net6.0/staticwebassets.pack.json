@@ -61,8 +61,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rollidng.gif",
+      "PackagePath": "staticwebassets\\imgassets\\rollidng.gif"
+    },
+    {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rolling.gif",
       "PackagePath": "staticwebassets\\imgassets\\rolling.gif"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\vanillaloader.gif",
+      "PackagePath": "staticwebassets\\imgassets\\vanillaloader.gif"
     },
     {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckg.mp4",
@@ -71,6 +79,10 @@
     {
       "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckgii.mp4",
       "PackagePath": "staticwebassets\\videoasssets\\iobckgii.mp4"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckgiii.mp4",
+      "PackagePath": "staticwebassets\\videoasssets\\iobckgiii.mp4"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyBlogWeb.Microsoft.AspNetCore.StaticWebAssets.props",

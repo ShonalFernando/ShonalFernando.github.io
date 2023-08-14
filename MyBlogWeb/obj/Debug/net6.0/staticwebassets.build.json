@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1TDpveNsd3Se4sM5LXjdqZ4L4lcQZocZr09TH6nELE8=",
+  "Hash": "xVAXySNycmWKsAkCKarNzPHirQDquwfr67JuWgUnBB4=",
   "Source": "MyBlogWeb",
   "BasePath": "_content/MyBlogWeb",
   "Mode": "Default",
@@ -272,6 +272,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rollidng.gif",
+      "SourceId": "MyBlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\",
+      "BasePath": "_content/MyBlogWeb",
+      "RelativePath": "imgassets/rollidng.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgassets\\rollidng.gif"
+    },
+    {
       "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\rolling.gif",
       "SourceId": "MyBlogWeb",
       "SourceType": "Discovered",
@@ -287,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgassets\\rolling.gif"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\imgassets\\vanillaloader.gif",
+      "SourceId": "MyBlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\",
+      "BasePath": "_content/MyBlogWeb",
+      "RelativePath": "imgassets/vanillaloader.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgassets\\vanillaloader.gif"
     },
     {
       "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\JEssentials.js",
@@ -338,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videoasssets\\iobckgii.mp4"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\videoasssets\\iobckgiii.mp4",
+      "SourceId": "MyBlogWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\ShonalFernando.github.io\\MyBlogWeb\\wwwroot\\",
+      "BasePath": "_content/MyBlogWeb",
+      "RelativePath": "videoasssets/iobckgiii.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videoasssets\\iobckgiii.mp4"
     }
   ]
 }
