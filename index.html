@@ -3,10 +3,25 @@
     <head>
         <title>Shonal Fernando</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/src/styles.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </head>
+        <script>
+          // JavaScript code to check if the user is on a mobile device
+          function redirectToMobilePage() {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            if (isMobile) {
+              // Redirect to the mobile page
+              window.location.href = './src/mobile/home.html';
+            }
+          }
+      
+          // Call the function when the page loads
+          window.onload = redirectToMobilePage;
+        </script>
+    
+      </head>
     <body style="background-color: #E9ECEF;">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%;">
                 <a class="navbar-brand" href="#">Shonal Fernando</a>
@@ -54,11 +69,12 @@
             <br/>
             <br/>
 
+            
             <div class="container-fluid">
               <div class="row">
                 <div class="col-sm-3" style="text-align: center;"></div>
-                <div class="col-sm-3" style="text-align: center;"><h3>languages</h3></div>
-                <div class="col-sm-3" style="text-align: center;">C# <br/> Javascript <br/> Python </br> PHP</div>
+                <div class="col-sm-3" style="text-align: left;"><h3>languages</h3></div>
+                <div class="col-sm-3" style="text-align: right;">C# <br/> Javascript <br/> Python </br> PHP</div>
                 <div class="col-sm-3" style="text-align: center;"></div>
               </div>
 
@@ -67,8 +83,8 @@
 
               <div class="row">
                 <div class="col-sm-3" style="text-align: center;"></div>
-                <div class="col-sm-3" style="text-align: center;"><h3>Industries</h3></div>
-                <div class="col-sm-3" style="text-align: center;">Simple Web </br> Standalone </br> Microservices </br> Mobile</div>
+                <div class="col-sm-3" style="text-align: left;"><h3>Industries</h3></div>
+                <div class="col-sm-3" style="text-align: right;">Simple Web </br> Standalone </br> Microservices </br> Mobile </br> Artificial Intelligence </div>
                 <div class="col-sm-3" style="text-align: center;"></div>
               </div>
 
@@ -77,8 +93,8 @@
               
               <div class="row">
                 <div class="col-sm-3" style="text-align: center;"></div>
-                <div class="col-sm-3" style="text-align: center;"><h3>Technologies/Frameworks</h3></div>
-                <div class="col-sm-3" style="text-align: center;">.net/WPF Desktop Application Development </br> ASP.net Blazor/Razor Development </div>
+                <div class="col-sm-3" style="text-align: left;"><h3>Technologies/Frameworks</h3></div>
+                <div class="col-sm-3" style="text-align: right;">.net/WPF Desktop Application Development </br> ASP.net Blazor/Razor Development </div>
                 <div class="col-sm-3" style="text-align: center;"></div>
               </div>
 
@@ -87,8 +103,8 @@
               
               <div class="row">
                 <div class="col-sm-3" style="text-align: center;"></div>
-                <div class="col-sm-3" style="text-align: center;"><h3>Education</h3></div>
-                <div class="col-sm-3" style="text-align: center;">University of Colombo,</br> School of Computing</div>
+                <div class="col-sm-3" style="text-align: left;"><h3>Education</h3></div>
+                <div class="col-sm-3" style="text-align: right;">University of Colombo,</br> School of Computing</div>
                 <div class="col-sm-3" style="text-align: center;"></div>
               </div>
 
@@ -97,12 +113,30 @@
               
               <div class="row">
                 <div class="col-sm-3" style="text-align: center;"></div>
-                <div class="col-sm-3" style="text-align: center;"><h3>Active</h3></div>
-                <div class="col-sm-3" style="text-align: center;">.net Dev since 2018</div>
+                <div class="col-sm-3" style="text-align: left;"><h3>Active</h3></div>
+                <div class="col-sm-3" style="text-align: right;">.net Dev since 2018</div>
                 <div class="col-sm-3" style="text-align: center;"></div>
               </div>
 
+              <br/>
+              <hr/>
+              
+              <div class="row">
+                <div class="col-sm-3" style="text-align: center;"></div>
+                <div class="col-sm-3" style="text-align: left;"><h3>What I Design & Develop</h3></div>
+                <div class="col-sm-3" style="text-align: right;">Web Applications </br/> Mobile Applications </br/> Enterprise Systems </br/> Intelligent Systems </br/></div>
+                <div class="col-sm-3" style="text-align: center;"></div>
+              </div>
 
+              <br/>
+              <hr/>
+              
+              <div class="row">
+                <div class="col-sm-3" style="text-align: center;"></div>
+                <div class="col-sm-3" style="text-align: left;"><h3>I will aid you in</h3></div>
+                <div class="col-sm-3" style="text-align: right;">IT Consultancy </br/> IT Advisory </br/> Cloud Transformations </br/> Research Support </br/></div>
+                <div class="col-sm-3" style="text-align: center;"></div>
+              </div>
               
             <br/>
             <br/>
@@ -110,7 +144,6 @@
             <br/>
             <br/>
             <br/>
-
             </div>
     </body>
 </html>
