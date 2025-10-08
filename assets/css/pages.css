@@ -1,0 +1,117 @@
+/* Pages.css */
+/* ----------------------------------------------
+# Page Layout Styling for Services/Custom Pages
+------------------------------------------------*/
+
+/* Responsive Page Layout */
+.page-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background: var(--background-color);
+}
+
+/* Sidebar Menu */
+.page-sidebar {
+  width: 70px;
+  background: color-mix(in srgb, var(--default-color), transparent 95%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  transition: width 0.3s ease-in-out;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+}
+
+.page-sidebar:hover {
+  width: 220px;
+}
+
+.page-sidebar a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  color: var(--nav-color);
+  font-family: var(--nav-font);
+  font-size: 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-sidebar a i {
+  font-size: 20px;
+  min-width: 24px;
+}
+
+.page-sidebar a:hover,
+.page-sidebar a.active {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Main Content */
+.page-content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Heading with Colorful Icon */
+.page-heading {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--heading-color);
+  gap: 10px;
+  margin-bottom: 20px;
+  animation: fadeSlideDown 0.4s ease-in-out;
+}
+
+.page-heading i {
+  font-size: 32px;
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* Smooth animations */
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Behavior */
+@media (max-width: 992px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .page-sidebar {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .page-sidebar:hover {
+    width: 100%;
+  }
+
+  .page-content {
+    padding: 20px;
+  }
+}
