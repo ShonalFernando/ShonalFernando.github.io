@@ -1,0 +1,137 @@
+   <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>Here’s what professionals, clients, and collaborators from Sri Lanka have to say about working with me.</p>
+    <p><i>"Note that these testimonials are dummy and real testominals awaits an approval process"</i></p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <!-- Testimonial 1 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-lg-6">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Shonal provided outstanding IT consultancy for our SME in Colombo. His ability to translate complex technical requirements into practical, cost-effective solutions helped us streamline operations and improve productivity.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <h3>Kasun Perera</h3>
+                  <h4>Managing Director, ********** Traders</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 text-center">
+                <img src="assets/img/testimonials/t1.png" class="img-fluid testimonial-img" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <!-- Testimonial 2 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-lg-6">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>As a law student, I found his cybercrime and digital justice insights invaluable. His workshops and mentoring sessions gave me a new perspective on combining law and technology in practice.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <h3>Dinuli Fernando</h3>
+                  <h4>LLB Undergraduate</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 text-center">
+                <img src="assets/img/testimonials/t2.png" class="img-fluid testimonial-img" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <!-- Testimonial 3 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-lg-6">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>We consulted Shonal for a digital transformation initiative in our hotel operations. His approach was practical, budget-friendly, and delivered measurable results within months.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <h3>Ruwan Jayasuriya</h3>
+                  <h4>IT Manager, C******* ******ze Hotel</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 text-center">
+                <img src="assets/img/testimonials/t3.png" class="img-fluid testimonial-img" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <!-- Testimonial 4 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-lg-6">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>His freelance development work for our NGO website was exceptional. Clean code, fast delivery, and excellent communication throughout the process. Highly recommended.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <h3>Nadeesha Weerakoon</h3>
+                  <h4>Program Coordinator, *****h For C***g** ****</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 text-center">
+                <img src="assets/img/testimonials/t4.png" class="img-fluid testimonial-img" alt="">
+              </div>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
